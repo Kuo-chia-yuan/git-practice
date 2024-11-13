@@ -11,9 +11,9 @@
 
 ## master
 7. 切換至 master：git checkout master
-8. 拉取最新遠端 master：git pull origin master
-9. 將 branch 合併：git merge feature/分支名稱
-10. 在遠端點擊 "Compare & pull request"，手動解決 conflict
+8. 拉取最新遠端 master 至本地端：git pull origin master
+9. 在本地端將 branch 合併至 master：git merge feature/分支名稱
+10. 在本地端手動解決 conflict
 11. 若有解決 conflict，檔案內容會更新，需再次將該檔案推至暫存區：git add 檔名
 12. 提交合併結果：git commit -m "描述內容"
 13. 將合併後的 master 推至遠端：git push origin master

@@ -25,4 +25,5 @@
 - 查看提交記錄：git log
 - 查看遠端分支：git branch -r
 - 查看本地分支：git branch
-- 刪除檔案：git rm 檔名
+- 刪除檔案：git rm 檔名  
+- conflict 出現情況：相同行數中有不同內容

@@ -5,7 +5,7 @@
 
 ## branch
 3. 新增檔案：touch 檔名
-4. 推至暫存區：git add 檔名
+4. 編輯完成後，推至暫存區：git add 檔名
 5. 提交推送結果：git commit -m "描述內容"
 6. 推至遠端：git push origin feature/分支名稱
 

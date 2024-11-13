@@ -11,7 +11,7 @@
 9. 在本地端將 branch 合併至 master：git merge 分支名稱
 10. 在本地端手動解決 conflict
 11. 若有解決 conflict，檔案內容會更新，需再次將該檔案推至暫存區：git add 檔名
-12. 提交合併結果：git commit -m "描述內容"
+12. 提交aaaaaaaaaaaaaaaacommit -m "描述內容"
 13. 將合併後的 master 推至遠端：git push origin master
 1233333333333333333333333333
 15. 刪除遠端分支 (可選)：git push origin --delete 分支名稱

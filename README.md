@@ -16,9 +16,4 @@
 14. 刪除本地分支 (可選)：git branch -d 分支名稱
 15. 刪除遠端分支 (可選)：git push origin --delete 分支名稱
 
-## key
-- 查看 git 狀態：git status
-- 查看提交記錄：git log
-- 查看遠端分支：git branch -r
-- 查看本地分支：git branch
-- 刪除檔案：git rm 檔名
+

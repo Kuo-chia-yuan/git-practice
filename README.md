@@ -1,7 +1,7 @@
 # git
 ## master (創建新分支)
 1. 將遠端拉至本地端：git clone 網址
-2. 創建並切換至新分支：git checkout -b 分支名稱
+2. 創建並切換至新分支，且將 master 內容複製到新分支：git checkout -b 分支名稱
 
 ## branch (在本地端的分支建檔並推至遠端)
 3. 新增檔案：touch 檔名

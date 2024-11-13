@@ -9,7 +9,7 @@
 5. 提交推送結果：git commit -m "描述內容"
 6. 推至遠端：git push origin feature/分支名稱
 
-## master (拉取遠端 master，在本地端將 branch merge 至 master，解決 conflict 後推至遠端)
+## master (拉取遠端 master，在本地端將 branch merge 至 master，並解決 conflict，推至遠端)
 7. 切換至 master：git checkout master
 8. 拉取最新遠端 master 至本地端：git pull origin master
 9. 在本地端將 branch 合併至 master：git merge feature/分支名稱

@@ -1,15 +1,15 @@
 # git
-## master
+## master (創建新分支)
 1. 將遠端拉至本地端：git clone 網址
 2. 創建並切換至新分支：git checkout -b feature/分支名稱
 
-## branch
+## branch (在本地端的分支建檔並推至遠端)
 3. 新增檔案：touch 檔名
 4. 編輯完成後，推至暫存區：git add 檔名
 5. 提交推送結果：git commit -m "描述內容"
 6. 推至遠端：git push origin feature/分支名稱
 
-## master
+## master (拉取遠端 master，在本地端將 branch 合併至 master，解決 conflict 後推至遠端)
 7. 切換至 master：git checkout master
 8. 拉取最新遠端 master 至本地端：git pull origin master
 9. 在本地端將 branch 合併至 master：git merge feature/分支名稱

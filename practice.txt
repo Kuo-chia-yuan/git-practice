@@ -15,3 +15,11 @@
 
 查看註解：git log
 查找細節：git show --stat <Commit-ID 前6~7碼即可> 
+
+創建分支：git branch feature/功能名
+進入分支：git switch feature/功能名
+編輯分支...
+上傳分支：git push -u origin feature/功能名
+去 GitHub 網頁點 "Create Pull Request"
+貼連結給同事：「幫我 Review 一下功能。」
+同事看完並按下了 Merge 按鈕

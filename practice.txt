@@ -12,3 +12,6 @@
 加入修改	：git add .	        把所有修改放入暫存區
 確認存檔：git commit -m "訊息"  註解更動訊息，讓其他人知道
 上傳雲端：git push	        把我的版本推上去
+
+查看註解：git log
+查找細節：git show --stat <Commit-ID 前6~7碼即可> 

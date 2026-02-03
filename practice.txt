@@ -1,6 +1,8 @@
-下載專案：git clone <網址>    第一次把專案抓下來
-檢查狀態：git status	     我現在改了什麼？(沒事就按一下)
-加入修改	：git add .	     把所有修改放入暫存區
-確認存檔：git commit -m "訊息" 蓋上印章，生成一個版本
-上傳雲端：git push	     把我的版本推上去
-下載更新	：git pull	     把別人的版本抓下來
+設定名稱：git config --global user.name "名稱"
+設定信箱：git config --global user.email "信箱"
+下載專案：git clone <網址>      第一次把專案抓下來
+檢查狀態：git status	           我現在改了什麼？(沒事就按一下)
+加入修改	：git add .	           把所有修改放入暫存區
+確認存檔：git commit -m "訊息"  註解更動訊息，讓其他人知道
+上傳雲端：git push	             把我的版本推上去
+下載更新	：git pull	           把別人的版本抓下來

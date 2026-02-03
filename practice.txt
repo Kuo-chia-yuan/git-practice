@@ -24,3 +24,5 @@
 
 查看註解：git log
 查找細節：git show --stat <Commit-ID 前6~7碼即可> 
+
+12

@@ -1,3 +1,5 @@
+conflict！
+
 設定名稱：git config --global user.name "名稱"
 設定信箱：git config --global user.email "信箱"
 下載專案：git clone <網址>      第一次把專案抓下來

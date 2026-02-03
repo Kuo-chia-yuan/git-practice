@@ -15,7 +15,7 @@
 回到 main：git switch main
 下載更新	：git pull
 進入分支：git switch feature/功能名
-合併最新：git mergec main
+合併最新：git merge main
 若有衝突自己解
 上傳分支：git push -u origin feature/功能名
 去 GitHub 網頁點 "Create Pull Request"

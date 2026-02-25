@@ -4,8 +4,8 @@
 檢查狀態：git status	       
 加入修改	：git add .	     
 確認存檔：git commit -m "訊息"  
-上傳雲端：git push	        
-!!!!!!!!!!!!
+上傳雲端：git push	 
+
 下載更新	：git pull
 1. Fast-Forward：不用解
 2. CONFLICT：開啟檔案，手動解      

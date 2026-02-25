@@ -4,23 +4,32 @@
 檢查狀態：git status	       
 加入修改	：git add .	     
 確認存檔：git commit -m "訊息"  
-上傳雲端：git push	        
-???????
+上傳雲端：git push	 
+---------------------------------------------
 下載更新	：git pull
 1. Fast-Forward：不用解
-2. CONFLICT：開啟檔案，手動解      
+2. CONFLICT：開啟檔案，手動解  
+    
 創建分支：git branch <工作>
 進入分支：git switch <工作>
 編輯分支...
+加入修改	：git add .	     
+確認存檔：git commit -m "訊息"  
+
 回到 main：git switch main
 下載更新	：git pull
 進入分支：git switch <工作>
 合併最新：git merge main
 (若有衝突自己解)
+
 上傳分支：git push -u origin <工作>
 去 GitHub 網頁點 "Create Pull Request"
 貼連結給同事：「幫我 Review 一下功能。」
 同事看完並按下了 Merge 按鈕
 
+回到 main：git switch main
+拉取最終結果：git pull
+刪除舊分支：git branch -d <工作>
+-----------------------------------------------
 查看註解：git log
 查找細節：git show --stat <Commit-ID 前6~7碼即可> 
